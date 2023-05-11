@@ -19,7 +19,7 @@ const App =()=>{
 
   return(
   <>
-     {/* <Router>
+     <Router>
       <Navbar/> 
       <Routes>
         <Route path='/'  element={<UserInfoForm/>} />
@@ -27,12 +27,12 @@ const App =()=>{
         <Route path='/table'  element={<UserTable/>} />
         <Route path='/country'  element={<Country/>} />
       </Routes>
-    </Router>  */}
+    </Router> 
 
     {/* <Chart/> */}
     {/* <Country/> */}
     {/* <Navbar/> */}
-    <UserTable  users={users} setUsers={setUsers}/>
+    {/* <UserTable  users={users} setUsers={setUsers}/> */}
     {/* <UserInfoForm/> */}
 
     
